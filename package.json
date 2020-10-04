@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "jsonwebtoken": "*",
+    "cors": "*",
+    "body-parser": "*"
+  },
+  "author": "alena",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.1.3"
+  }
+}
